@@ -33,7 +33,7 @@ public class VoidMethodsTests {
         String expect = "Go, team, go!\n" +
                 "You can do it.\n\n" +
                 "Go, team, go!\n" +
-                "You can do it.\n" +
+                "You˙ can do it.\n" +
                 "You're the best,\n" +
                 "In the West.\n" +
                 "Go, team, go!\n" +
