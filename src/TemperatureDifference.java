@@ -17,7 +17,7 @@ public class TemperatureDifference {
         Scanner scan = new Scanner(System.in);
 
         // Get the two temperatures from the user as input
-
+        //(int) Math.random();
         // Call the calculateDifference method and save the result in a variable.
 
         // Print out the information to the user
