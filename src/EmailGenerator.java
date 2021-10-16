@@ -10,6 +10,11 @@ public class EmailGenerator<main> {
         String firstInitial =  name.substring(0,1);
         int indexof = name.indexOf(" ") + 1;
 
+        double max;
+        double min;
+        int randomNumber = (int) (Math.random()*(max-min)) +min;
+
+
 
 
     }
