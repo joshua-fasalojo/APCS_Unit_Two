@@ -7,13 +7,68 @@ public class FightSong {
      */
     public static void goTeam() {
         // Add any print statements you think should go in this method.
+        System.out.println("Go, team, go!");
+        System.out.println(" You can do it.");
+
+
+                //You're the best,
+        //In the West.
+               // Go, team, go!
+              //  You can do it.
+
+              //  Go, team, go!
+              //  You can do it.
+               // You're the best,
+     //   In the West.
+              //  Go, team, go!
+             //   You can do it.
+
+             //   Go, team, go!
+            //    You can do it.
 
     }
 
     // Create any additional methods you need in this space in order to fulfill the requirements of the program
-
+        public static void firstPrintStatement() {
+            System.out.println("Go, team, go!");
+    }
+        public static void secondPrintStatement() {
+            System.out.println("You can do it.");
+        }
+        public static void space () {
+            System.out.println("");
+        }
+    public static void thirdPrintStatement() {
+        System.out.println("You're the best,");
+    }
+    public static void fourthPrintStatement () {
+        System.out.println("In the West.");
+    }
     public static void main(String[] args) {
         // No print statements should be in here, only method calls.
+        firstPrintStatement ();
+        secondPrintStatement ();
+        space();
+        firstPrintStatement ();
+        secondPrintStatement ();
+        thirdPrintStatement();
+        fourthPrintStatement();
+        firstPrintStatement ();
+        secondPrintStatement ();
+        space();
+        firstPrintStatement ();
+        secondPrintStatement ();
+        thirdPrintStatement();
+        fourthPrintStatement();
+        firstPrintStatement ();
+        secondPrintStatement ();
+        space();
+        firstPrintStatement ();
+        secondPrintStatement ();
+
+
+
+
 
     }
 }
