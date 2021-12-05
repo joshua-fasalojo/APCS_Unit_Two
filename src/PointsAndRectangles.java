@@ -10,12 +10,12 @@ public class PointsAndRectangles
     {
         Scanner input = new Scanner(System.in);
         // create print statements and get input for the x and y values.
-        System.out.println("Enter the x cordinate: ");
+        System.out.println("Enter the x coordinate: ");
         int x = input.nextInt();
-        System.out.println("Enter the y cordinate: ");
+        System.out.println("Enter the y coordinate: ");
         int y = input.nextInt();
         //Instantiate a Point object p. Hint: you will need the keyword "new"
-        Point p = new Point();
+        Point p = new Point(x,y);
         // create print statements and get input for the length and width
         System.out.println("Enter the length: ");
         int length = input.nextInt();
@@ -23,10 +23,10 @@ public class PointsAndRectangles
         int width = input.nextInt();
         //System.out.print(0,0);
         //Instantiate a Dimension object d.
-        Dimension d = new Dimension();
+        Dimension d = new Dimension(width,length);
 
         //Instantiate a Rectangle object r.
-        Rectangle r = new Rectangle();
+        Rectangle r = new Rectangle(width, length, x, y);
 
 
         // Print each object p, d, and r on a separate line.
