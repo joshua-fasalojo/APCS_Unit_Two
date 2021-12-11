@@ -20,18 +20,9 @@ public class Names {
         System.out.println(var1);
         System.out.println(lastname.indexOf('a'));
         System.out.println(firstName.indexOf('o'));
-        char ch1 = firstName.charAt(0);
-        char ch2 = firstName.charAt(1);
-        char ch3 = firstName.charAt(2);
-        char ch4 = lastName.charAt(5);
-        char ch5 = lastName.charAt(6);
-        char ch6 = lastName.charAt(7);
-        char ch7 = lastName.charAt(8);
-        char ch8 = lastName.charAt(0);
-        char ch9 = lastName.charAt(1);
-        char ch10  = lastName.charAt(2);
-        char ch11 = lastName.charAt(3);
-        System.out.print(ch1 + ch2 + ch3 + ch4 + ch5 + ch6 + ch7 + " " + ch8 + ch9 + ch10 + ch11);
+        System.out.print(firstName.substring(0,3));
+        System.out.print(lastName.substring(4,8));
+        System.out.print(" " + lastName.substring(0,4) + firstName.substring(3));
 
 
 
