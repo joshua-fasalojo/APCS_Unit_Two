@@ -9,11 +9,12 @@ public class GrowSquarePrinter {
         // print the rectangle object.
         System.out.println(square);
         // Use the translate and grow methods as described in the instructions
-        square.grow(100 ,  100 );
-        square.translate(100 , 100);
+        square.translate(25,25);
 
         // print the rectangle object.
+        square.grow( 25 ,25);
         System.out.println(square);
+
     }
 }
 //The new Rectangle has (x - h, y - v) as its upper-left corner, width of (width + 2h), and a height of (height + 2v).
